@@ -1,7 +1,8 @@
 module.exports = {
-  title: 'docs.olivia-ai.org',
+  title: 'Olivia Docs',
   description: 'Documentation for Olivia',
   head: [
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://i.imgur.com/J1xUbRW.png' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:title', content: 'docs.olivia-ai.org' }],
     ['meta', { name: 'og:description', content: 'Documentation for Olivia' }],
@@ -12,11 +13,18 @@ module.exports = {
       { text: 'Github', link: 'https://github.com/olivia-ai/docs.olivia-ai.org' },
     ],
     sidebar: [
-      '/gettingstarted',
-      '/howtouse',
-      '/customization/dataset',
-      '/customization/triggers'
-    ]
+      {
+        title: 'Documentation',
+        collapsable: false,
+        children: [
+          'gettingstarted',
+          'howtouse',
+          'dataset',
+          'triggers'
+        ]
+      }
+    ],
+    logo: 'https://i.imgur.com/J1xUbRW.png'
   }
 }
 
