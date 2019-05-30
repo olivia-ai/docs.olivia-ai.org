@@ -17,7 +17,7 @@ module.exports = {
         title: 'Documentation',
         collapsable: false,
         children: [
-          'gettingstarted',
+          '',
           'howtouse',
           'dataset',
           'triggers'
