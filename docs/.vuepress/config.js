@@ -10,7 +10,8 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: 'Github', link: 'https://github.com/olivia-ai/docs.olivia-ai.org' },
+      { text: 'Chat online', link: 'https://olivia-ai.org/chat' },
+      { text: 'Github', link: 'https://github.com/olivia-ai/docs.olivia-ai.org' }
     ],
     sidebar: [
       {
@@ -18,7 +19,6 @@ module.exports = {
         collapsable: false,
         children: [
           '',
-          'howtouse',
           'dataset',
           'triggers'
         ]
