@@ -1,0 +1,26 @@
+{
+  "name": "docs.olivia-ai.org",
+  "version": "1.0.0",
+  "description": "Documentation of Olivia",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivia-ai/docs.olivia-ai.org.git"
+  },
+  "author": "Hugo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivia-ai/docs.olivia-ai.org/issues"
+  },
+  "homepage": "https://github.com/olivia-ai/docs.olivia-ai.org#readme",
+  "dependencies": {
+    "vuepress": "^0.14.11"
+  }
+}
