@@ -22,14 +22,18 @@ And run the application
 go run main.go
 ```
 
-### Advanced parameters
+The REST Api is now listening on the port `8080`, to change it just set it inside the environment variable `PORT`
 
-If you want to change the port where Olivia's REST Api is running just change the `PORT` environment variable to the port you want to use.
+The app will automatically check for `res/training.json` file which contains the save of the neural network.
+By default when you clone the repository from Github you have a stable save.
+If you want to train a new model just delete this file and rerun the app.
 
 ## How to use
 To use the REST Api you must establish `POST` request to `/api/response` with two parameters:
 - `sentence` which is the message you want to send to Olivia
 - `authorId` which is an arbitrary ID to identify the user for having a contextual chat
+
+The latest release is online at `https://olivia-api.herokuapp.com`
 
 ### Example with curl
 ```bash
