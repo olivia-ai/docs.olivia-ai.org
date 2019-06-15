@@ -19,8 +19,7 @@ module.exports = {
         collapsable: false,
         children: [
           '',
-          'dataset',
-          'triggers'
+          'modules'
         ]
       }
     ],

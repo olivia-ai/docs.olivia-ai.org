@@ -39,3 +39,12 @@ The latest release is online at `https://olivia-api.herokuapp.com`
 ```bash
 curl -X POST 'https://olivia-api.herokuapp.com/api/response' --data "sentence=Hello" --data "authorId=81278329032"
 ```
+
+The response arrives in this format
+
+```json
+{
+  "content": "Good morning!",
+  "tag": "hello"
+}
+```
