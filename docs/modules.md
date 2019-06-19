@@ -2,6 +2,8 @@
 
 With olivia, you can easily add a module:
 
+First of all make sure you are working inside `GOPATH/src/github.com/olivia-ai/olivia`
+
 Just write in a new file inside the `modules` package
 
 ```go
@@ -28,4 +30,4 @@ func MyModuleReplacer(entry, response string) string {
 }
 ```
 
-And that's all, just re-run Olivia!
+If there's already a save (`res/training.json`) you must delete it and re-run the REST Api
