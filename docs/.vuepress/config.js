@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Chat online', link: 'https://olivia-ai.org/chat' },
-      { text: 'Github', link: 'https://github.com/olivia-ai/docs.olivia-ai.org' }
+      { text: 'Github', link: 'https://github.com/olivia-ai/olivia' }
     ],
     sidebar: [
       {
