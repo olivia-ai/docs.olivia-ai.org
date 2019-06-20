@@ -19,7 +19,8 @@ module.exports = {
         collapsable: false,
         children: [
           '',
-          'modules'
+          'modules',
+          'intents'
         ]
       }
     ],
