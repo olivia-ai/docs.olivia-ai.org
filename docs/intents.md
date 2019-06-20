@@ -1,4 +1,4 @@
-## Intents
+# Add your own intents
 
 The intents are patterns of messages grouped with a tag like for example
 
