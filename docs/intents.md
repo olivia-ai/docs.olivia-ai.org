@@ -1,5 +1,4 @@
-# Add your own intents
-
+# Intents
 The intents are patterns of messages grouped with a tag like for example
 
 ```json
