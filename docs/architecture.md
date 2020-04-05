@@ -1,6 +1,8 @@
 # Architecture
 How Olivia is working deep down.
 
+![](https://i.imgur.com/G9BYf4Y.png)
+
 ## Neural network training
 First of all comes the neural network training.
 It retrieves all the intents from `res/intents.json` and the modules, it changes the sentences into words bags, link them to their tag and put them into the neural network.
