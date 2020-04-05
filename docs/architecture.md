@@ -1,5 +1,7 @@
 # Architecture
-How Olivia is working deep down.
+<p align="center">
+  <img alt="dictionary" height="100" src="https://i.imgur.com/95h8WIU.png">
+</p>
 
 ![](https://i.imgur.com/G9BYf4Y.png)
 
