@@ -38,10 +38,17 @@ module.exports = {
           'architecture',
           'modules',
           'intents',
+          'console',
+          'website',
+          'translations'
         ]
       }
     ],
-    logo: 'https://i.imgur.com/J1xUbRW.png'
+    logo: 'https://i.imgur.com/J1xUbRW.png',
+    docsRepo: 'olivia-ai/docs.olivia-ai.org',
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: 'Help to improve this page on GitHub!'
   }
 }
 

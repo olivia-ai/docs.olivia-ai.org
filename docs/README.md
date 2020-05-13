@@ -72,3 +72,12 @@ And run it
 ```bash
 $ go run main.go
 ```
+
+### Frontend and Backend
+To install the frontend and the backend together, please use the `docker-compose.yml` file:
+
+```bash
+$ docker-compose up
+```
+
+And all done!
