@@ -9,7 +9,7 @@ You can run the website with the npm scripts.
 ### Installation
 Clone the project and go inside it with:
 ```bash
-$ git clone git@github.com:olivia-ai/docs.olivia-ai.org.git
+$ git clone git@github.com:olivia-ai/olivia-ai.org.git
 $ cd olivia-console
 ```
 
