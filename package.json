@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/olivia-ai/docs.olivia-ai.org#readme",
   "dependencies": {
-    "vuepress": "^0.14.11",
+    "vuepress": "^1.9.7",
     "braces": ">=2.3.1"
   }
 }
